@@ -17,13 +17,13 @@ csv_files = [
 conn = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='$$Wikipedia1',
+    password='confidential',
     database='ecommerce'
 )
 cursor = conn.cursor()
 
 # Folder containing the CSV files
-folder_path = 'C:/Users/Harshit/Desktop/Placement practice/Python/Projects/Ecommerce/SQL-Python-Ecommerce-Project-main/Datasets'
+folder_path = 'confidential'
 
 def get_sql_type(dtype):
     if pd.api.types.is_integer_dtype(dtype):
